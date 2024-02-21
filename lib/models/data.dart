@@ -1,0 +1,186 @@
+import 'package:daily_motivation/models/motivation_quote.dart';
+
+List<MotivationQuote> motivationQuotes = [
+  MotivationQuote(
+    title: "Positive Thinking",
+    text: "The only limit to our realization of tomorrow will be our doubts of today.",
+    author: "Franklin D. Roosevelt",
+    category: "Inspirational",
+  ),
+  MotivationQuote(
+    title: "Success Mindset",
+    text: "The only way to do great work is to love what you do.",
+    author: "Steve Jobs",
+    category: "Success",
+  ),
+  MotivationQuote(
+    title: "Persistence",
+    text:
+        "The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack in will.",
+    author: "Vince Lombardi",
+    category: "Motivation",
+  ),
+  MotivationQuote(
+    title: "Overcoming Obstacles",
+    text:
+        "Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength.",
+    author: "Arnold Schwarzenegger",
+    category: "Resilience",
+  ),
+  MotivationQuote(
+    title: "Positive Affirmation",
+    text: "Believe you can and you're halfway there.",
+    author: "Theodore Roosevelt",
+    category: "Confidence",
+  ),
+  MotivationQuote(
+    title: "Believe in Yourself",
+    text: "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+    author: "Christian D. Larson",
+    category: "Self-Confidence",
+  ),
+  MotivationQuote(
+    title: "Positive Thinking",
+    text: "Positive thinking will let you do everything better than negative thinking will.",
+    author: "Zig Ziglar",
+    category: "Positive Thinking",
+  ),
+  MotivationQuote(
+    title: "Success is a Journey",
+    text: "Success is not a destination, it's a journey.",
+    author: "Zig Ziglar",
+    category: "Success",
+  ),
+  MotivationQuote(
+    title: "The Power of Perseverance",
+    text: "Perseverance is failing 19 times and succeeding the 20th.",
+    author: "Julie Andrews",
+    category: "Perseverance",
+  ),
+  MotivationQuote(
+    title: "The Power of Attitude",
+    text: "Your attitude, not your aptitude, will determine your altitude.",
+    author: "Zig Ziglar",
+    category: "Attitude",
+  ),
+  MotivationQuote(
+    title: "The Power of Imagination",
+    text: "Imagination is everything. It is the preview of life's coming attractions.",
+    author: "Albert Einstein",
+    category: "Imagination",
+  ),
+  MotivationQuote(
+    title: "The Power of Action",
+    text: "Action is the foundational key to all success.",
+    author: "Pablo Picasso",
+    category: "Action",
+  ),
+  MotivationQuote(
+    title: "The Power of Focus",
+    text: "The successful warrior is the average man, with laser-like focus.",
+    author: "Bruce Lee",
+    category: "Focus",
+  ),
+  MotivationQuote(
+    title: "The Power of Persistence",
+    text: "Persistence is to the character of man as carbon is to steel.",
+    author: "Napoleon Hill",
+    category: "Persistence",
+  ),
+  MotivationQuote(
+    title: "The Power of Goals",
+    text: "A goal properly set is halfway reached.",
+    author: "Zig Ziglar",
+    category: "Goals",
+  ),
+  MotivationQuote(
+    title: "Courage",
+    text: "Courage is not the absence of fear, but the triumph over it.",
+    author: "Nelson Mandela",
+    category: "Courage",
+  ),
+  MotivationQuote(
+    title: "Dream Big",
+    text: "The future belongs to those who believe in the beauty of their dreams.",
+    author: "Eleanor Roosevelt",
+    category: "Dreams",
+  ),
+  MotivationQuote(
+    title: "Self-belief",
+    text: "You are braver than you believe, stronger than you seem, and smarter than you think.",
+    author: "A.A. Milne",
+    category: "Self-belief",
+  ),
+  MotivationQuote(
+    title: "Gratitude",
+    text: "Gratitude can transform common days into thanksgivings, turn routine jobs into joy, and change ordinary opportunities into blessings.",
+    author: "William Arthur Ward",
+    category: "Gratitude",
+  ),
+  MotivationQuote(
+    title: "Optimism",
+    text: "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.",
+    author: "Helen Keller",
+    category: "Optimism",
+  ),
+  MotivationQuote(
+    title: "Focus",
+    text: "The secret of change is to focus all of your energy, not on fighting the old, but on building the new.",
+    author: "Socrates",
+    category: "Focus",
+  ),
+  MotivationQuote(
+    title: "Persistence",
+    text: "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    author: "Winston Churchill",
+    category: "Persistence",
+  ),
+  MotivationQuote(
+    title: "Growth",
+    text: "The only way to do great work is to love what you do.",
+    author: "Steve Jobs",
+    category: "Growth",
+  ),
+  MotivationQuote(
+    title: "Opportunity",
+    text: "The only thing that stands between you and your dream is the will to try and the belief that it is actually possible.",
+    author: "Joel Brown",
+    category: "Opportunity",
+  ),
+  MotivationQuote(
+    title: "Positivity",
+    text: "Positive thinking will let you do everything better than negative thinking will.",
+    author: "Zig Ziglar",
+    category: "Positivity",
+  ),
+  MotivationQuote(
+    title: "Perseverance",
+    text: "Perseverance is not a long race; it is many short races one after the other.",
+    author: "Walter Elliot",
+    category: "Perseverance",
+  ),
+  MotivationQuote(
+    title: "Strength",
+    text: "Believe you can and you're halfway there.",
+    author: "Theodore Roosevelt",
+    category: "Strength",
+  ),
+  MotivationQuote(
+    title: "Success",
+    text: "Success is not how high you have climbed, but how you make a positive difference to the world.",
+    author: "Roy T. Bennett",
+    category: "Success",
+  ),
+  MotivationQuote(
+    title: "Resilience",
+    text: "When you have a dream, you've got to grab it and never let go.",
+    author: "Carol Burnett",
+    category: "Resilience",
+  ),
+  MotivationQuote(
+    title: "Inspiration",
+    text: "Your limitation—it's only your imagination.",
+    author: "Unknown",
+    category: "Inspiration",
+  ),
+];
