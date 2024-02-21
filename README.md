@@ -2,15 +2,8 @@
 
 A Flutter application which shows new quote daily.
 
-## Getting Started
+### A simple app for quotes
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![daily_motivation](https://github.com/cyber111/daily_motivation/assets/28974382/27ac7483-01ef-4d2a-99bb-79c22af552cf)
