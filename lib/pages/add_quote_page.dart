@@ -52,11 +52,11 @@ class AddQuotePage extends StatelessWidget {
                       ));
                       Fluttertoast.showToast(msg: 'Quote Added', fontSize: 15, gravity: ToastGravity.CENTER);
                       Navigator.pop(context);
-
                     },
                     child: Text(
                       'Add Quote',
-                      style: TextStyle(color: Theme.of(context).colorScheme.onPrimary, fontSize: 20, fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                          color: Theme.of(context).colorScheme.onPrimary, fontSize: 20, fontWeight: FontWeight.bold),
                     ))
               ],
             ),
