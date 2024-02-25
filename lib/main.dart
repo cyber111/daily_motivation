@@ -20,6 +20,7 @@ class MotivationApp extends StatelessWidget {
       home: const HomePage(),
       theme: lightModeAmber,
       darkTheme: darkModeAmber,
+      debugShowCheckedModeBanner: false,
     );
   }
 }
