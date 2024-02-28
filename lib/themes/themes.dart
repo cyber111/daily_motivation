@@ -69,7 +69,6 @@ ThemeData lightModeAmber = ThemeData(
     ),
     textTheme: ThemeData.light().textTheme.apply(
       bodyColor: Colors.amber[800],
-
       displayColor: Colors.amber[900],
     ));
 
