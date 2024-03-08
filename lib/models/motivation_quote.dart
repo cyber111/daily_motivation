@@ -1,4 +1,3 @@
-import 'package:daily_motivation/db/database_helper.dart';
 
 class MotivationQuote {
   final int? id;
@@ -14,14 +13,4 @@ class MotivationQuote {
     required this.author,
     required this.category,
   });
-
-  Map<String, dynamic> toMap() {
-    return {
-      DatabaseHelper.columnId: id,
-      DatabaseHelper.columnTitle: title,
-      DatabaseHelper.columnText: text,
-      DatabaseHelper.columnAuthor: author,
-      DatabaseHelper.columnCategory: category,
-    };
-  }
 }
