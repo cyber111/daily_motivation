@@ -1,6 +1,8 @@
 import 'package:daily_motivation/pages/homepage.dart';
+import 'package:daily_motivation/pages/web_home_page.dart';
 import 'package:daily_motivation/providers/motivation_quote_provider.dart';
 import 'package:daily_motivation/themes/themes.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -17,9 +19,8 @@ class MotivationApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const HomePage(),
+      home: kIsWeb ? const WebHomePage() : const HomePage(),
       theme: lightModeAmber,
-      darkTheme: darkModeAmber,
       debugShowCheckedModeBanner: false,
     );
   }

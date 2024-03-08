@@ -12,6 +12,8 @@ class MotivationQuoteProvider extends ChangeNotifier {
     _initDatabase();
   }
 
+  get quotes => motivationQuotes;
+
   Future<void> _initDatabase() async {
     final documentsDirectory = await getApplicationDocumentsDirectory();
     final path = join(documentsDirectory.path, 'motivation_quotes.db');
@@ -28,6 +30,10 @@ class MotivationQuoteProvider extends ChangeNotifier {
       await insert(quote);
     }
     notifyListeners();
+  }
+
+  void getQuotes(){
+
   }
 
   Future<void> _createDb(Database db, int version) async {
